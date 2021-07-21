@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display-swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+p
+{
+    font-weight: 300;
+    color: black;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/media.jpg);
+    background-size: cover;
+}
+.banner .content
+{
+    max-width: 900px;
+    text-align: center;
+    font-size: 90%;
+}
+.banner .content h2
+{
+    font-size: 5em;
+    color : white;
+}
+
+.banner .content p
+{
+    font-size: 1em;
+    color: white;
+}
+.banner .content p span{
+    color: darkblue;
+}
+#btn
+{
+    font-size: 1em;
+    color: white;
+    background: darkblue;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+#btn:hover
+{
+    letter-spacing: 6px;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header.sticky
+{
+    background: white;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 05);
+}
+header .navigation
+{
+    position: relative;
+    display: flex;
+}
+header.sticky .navigation a{
+    color: darkblue;
+    list-style: none;
+}
+
+header .navigation a
+{
+    color: white;
+    list-style: none;
+    margin-left: 30px;
+}
+section
+{
+    padding: 100px;
+}
+.row
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50
+{
+    position: relative;
+    width: 48%;
+}
+.titleText
+{
+    color: black;
+    font-size: 2em;
+    font-weight: 300;
+}
+.titleText span
+{
+    color: darkblue;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.row .col50 .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.row .col50 .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner .content p span{
+    color: white;
+    font-size: 120%;
+}
+.container .form p{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form {
+    width: 100%;
+    max-width: 820px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: hidden;
+    display: flexbox;
+    position: static;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  form {
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .input-container {
+    position: relative;
+    margin: 1rem 0;
+  }
+  .input {
+    width: 100%;
+    outline: none;
+    border: 2px solid white;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color: white;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
+  }  
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.games .row span{
+    color: darkblue;
+    width: 5%;
+    font-size: 120%;
+}
+.tech .row span{
+    color: darkblue;
+    width: 5%;
+    font-size: 120%;
+}
+.copyrightText{
+    padding: 8px 40px;
+    border-top: 1px solid rgba(133, 121, 121, 0.1);
+    text-align: center
+}
+.copyrightText p{
+    color: #333;
+}
+.copyrightText a{
+    color: darkblue;
+    font-weight: 500;
+    text-decoration: none;
+}
