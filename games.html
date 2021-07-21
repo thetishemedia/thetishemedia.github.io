@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">    
+    <link rel="stylesheet" href="style.css">
+    <title>Tishe-healthy</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"> Tishe-healthy <span>.</span></a>
+        <ul class="navigation">
+             <a class="nav-item nav-link " href="index.html">Home</a> 
+            <a class="nav-item nav-link" href="games.html">Games</a> 
+            <a class="nav-item nav-link" href="tech.html">Tech</a>
+            <a class="nav-item nav-link" href="rekomendasi.html">Rekomendasi</a>
+            <a class="nav-item nav-link" href="about.html active">About</a>
+        </ul>
+    </header>
+    <selection class="banner" id="banner">
+        <div class="content">
+            <h2>Selamat Datang</h2>
+            <p>Setiap orang pasti menginginkan tubuh yang sehat dan bugar, tetapi tidak sedikit orang menunggu waktu yang tepat untuk menerapkan gaya hidup sehat. Tujuan kami adalah menghilangkan hambatan teknis atau finansial dalam penerapan gaya hidup sehat. Serta memberi kemudahan dalam analisis resep atau daftar bahan yang akan dikonsumsi
+                secara otomatis dan terperinci berdasarkan kalori, diet, dan alergen.</p>
+            <a href="#about" id="btn">Baca Selengkapnya</a>
+        </div>
+    </div>
+    </selection>
+    
+    <div id="container" class="container mt-5 d-none">
+        <h1 class="text-center mb-3">Artikel Games</h1>
+        <div class="row" id="artikelGames">
+        </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script>artikelGames()
+container.classList.remove('d-none')</script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){const header = document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY >0)
+        });
+    </script>
+    
+</body>
+</html>
